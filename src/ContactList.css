@@ -1,0 +1,59 @@
+.contact-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-list h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+  }
+  
+  ul li:hover {
+    background: #a298f9;
+    
+  }
+  
+  .add-button {
+    display: inline-block;
+    background:#a298f9;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 100%;
+    font-size: 1.5em;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
